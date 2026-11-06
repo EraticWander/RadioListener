@@ -42,3 +42,14 @@ source env/bin/activate
 pip install deepspeech pydub numpy requests
 python main.py
 ```
+
+---
+
+## Credits, Acknowledgments & External Sources
+
+- **[Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech)** *(MPL-2.0 License)*  
+  Open-source embedded Speech-to-Text engine and pre-trained acoustic/KenLM scorer models (`v0.9.3`) developed by **Mozilla**, based on Baidu's *Deep Speech: Scaling up end-to-end speech recognition* research paper (Hannun et al.).
+- **[`pydub`](https://github.com/jiaaro/pydub)** *(MIT License)* & **[FFmpeg](https://github.com/FFmpeg/FFmpeg)** *(LGPL-2.1 / GPL)*  
+  Created by **James Robert (`jiaaro`)** (`pydub`) and the **FFmpeg Team**, used for decoding live AAC audio streams into PCM WAV samples in memory.
+- **[NumPy](https://github.com/numpy/numpy)** & **[Requests](https://github.com/psf/requests)**  
+  Used for audio buffer array manipulation and HTTP stream consumption.
